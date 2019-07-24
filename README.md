@@ -51,3 +51,6 @@ SEMOGA BISA SESUAI HARAPAN.
 Selesai.
 
 ThankYou..
+
+[https://scrutinizer-ci.com/g/iqbalcakep/testKLY/](https://scrutinizer-ci.com/g/iqbalcakep/testKLY/)
+[http://testkly.herokuapp.com/](http://testkly.herokuapp.com/)
