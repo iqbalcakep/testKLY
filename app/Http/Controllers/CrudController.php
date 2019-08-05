@@ -96,8 +96,10 @@ class CrudController extends Controller
         $tempDetail = explode(',',$temp);
         if($file = $r->file("gambar")){
             $tujuan_upload = 'assets/file/';
+            unlink('assets/file/'.$r->gambar_lama);
             $file->move($tujuan_upload,$r->nama."-".$this->date.".png");
             $gambar = $r->nama."-".$this->date.".png";
+            
                 $data = array(
                     "nama" => $r->nama.",",
                     "email" => $r->email.",",

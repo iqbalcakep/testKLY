@@ -26,4 +26,11 @@ Route::group(['middleware' => ['hasLogin']], function () {
     Route::post('/crud/insert_post','CrudController@insert_post');
     Route::post('/crud/update_post','CrudController@update_post');
     Route::post('/crud/delete_post','CrudController@delete_post');
+
+    Route::get('/user','UsersController@index');
+    Route::get('/getAllUsers','UsersController@getAllUsers');
+    Route::post('/user/insert_post','UsersController@insert_post');
+    Route::post('/user/update_post','UsersController@update_post');
+    Route::post('/user/delete_post','UsersController@delete_post');
+    
 });

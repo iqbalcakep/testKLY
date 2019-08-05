@@ -50,6 +50,8 @@
                             <ul id="sidebarnav">
                                 <li> <a class="waves-effect waves-dark" href="/crud" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard</span></a>
                                 </li>
+                                <li> <a class="waves-effect waves-dark" href="/user" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">CRUD User</span></a>
+                                </li>
                                 <li> <a class="waves-effect waves-dark" href="/log_out" aria-expanded="false"><i class="mdi mdi-account-check"></i><span class="hide-menu">Log Out</span></a>
                                 </li>
                             </ul>
@@ -63,13 +65,14 @@
             <footer class="footer"> © 2019 iqbalcakep </footer>
         </div>
     </div>
-    <script src="assets/admin/plugins/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script> 
     <script src="assets/admin/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/admin/js/jquery.slimscroll.js"></script>
     <script src="assets/admin/js/waves.js"></script>
     <script src="assets/admin/js/sidebarmenu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.js"></script>
     <script src="assets/admin/js/custom.min.js"></script>
-    <script src="//cdn.ckeditor.com/4.12.1/standard/ckeditor.js"></script>
     <script src="assets/js/aos.js"></script>
     <script type="text/javascript" language="javascript" src="assets/datatables/js/jquery.dataTables.min.js"></script>
     @yield('script')

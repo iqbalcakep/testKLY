@@ -150,6 +150,7 @@
                 $("#formEdit").submit(function(e){ //form edit
                     e.preventDefault();
                     var formData = new FormData(this);
+                    formData.append('gambar_lama',$("#previewedit2 img").attr("id"))
                     $.ajax({
                             url:'crud/update_post',
                             type:"post",

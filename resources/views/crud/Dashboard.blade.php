@@ -166,5 +166,5 @@
         @endsection
 
         @section('script')
-        <script type="text/javascript" src="js/Dashboard2.js" ></script>
+        <script type="text/javascript" src="js/Dashboard.js" ></script>
         @endsection
